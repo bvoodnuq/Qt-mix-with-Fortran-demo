@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtMain", "Qt\QtMain.vcxproj", "{82CE2DA3-8800-309C-8887-BE11D053A544}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "LibFortranSub", "Fortran\LibFortranSub\LibFortranSub.vfproj", "{DF1CC664-FB14-4256-8D9D-469DDC9D1DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82CE2DA3-8800-309C-8887-BE11D053A544}.Debug|x86.ActiveCfg = Debug|Win32
+		{82CE2DA3-8800-309C-8887-BE11D053A544}.Debug|x86.Build.0 = Debug|Win32
+		{82CE2DA3-8800-309C-8887-BE11D053A544}.Release|x86.ActiveCfg = Release|Win32
+		{82CE2DA3-8800-309C-8887-BE11D053A544}.Release|x86.Build.0 = Release|Win32
+		{DF1CC664-FB14-4256-8D9D-469DDC9D1DC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF1CC664-FB14-4256-8D9D-469DDC9D1DC7}.Debug|x86.Build.0 = Debug|Win32
+		{DF1CC664-FB14-4256-8D9D-469DDC9D1DC7}.Release|x86.ActiveCfg = Release|Win32
+		{DF1CC664-FB14-4256-8D9D-469DDC9D1DC7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F808764F-3AA6-4606-8BD5-872DF4644EEC}
+	EndGlobalSection
+EndGlobal
